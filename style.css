@@ -1,0 +1,143 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali|Open+Sans&display=swap');
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+
+/* FIM RESETS */
+
+
+/* Parte da imagem superior e do menu! */
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+}
+
+header img {
+    height: 80px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header li a {
+    color: #2f3504;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header li:first-child {
+    margin-left: 0;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+
+/* PRIMEIRA SECTION */
+
+.hero {
+    background-image: url(images/fundo.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    font-family: 'Mali', cursive;
+}
+
+.hero h3 {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    font-family: 'Mali', cursive;
+}
+
+
+/* INICIO SEGUNDA DIV */
+
+.books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.books h3 {
+    font-size: 1.4rem;
+    margin-bottom: 35px;
+    font-family: 'Mali', cursive;
+}
+
+.books hr {
+    width: 200px;
+    height: 2px;
+    margin-top: -15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.books .livros {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.books .livros li {
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    flex-basis: 40%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 14px;
+}
